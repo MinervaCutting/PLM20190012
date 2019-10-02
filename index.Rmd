@@ -1,0 +1,107 @@
+---
+title: "MADRID GROUP"
+author: "DEFACTO"
+date: 'October 15th - October 17th'
+output:
+ 
+  html_document:
+    css: FORMATO.css
+    highlight: textmate
+    theme: cosmo
+    toc: yes
+    toc_float: yes
+---
+
+<script> 
+    $(document).ready(function() { 
+    $head = $('#header'); 
+    $head.prepend('<A href = https://www.cuttingedge-events.com><img src ="LOGO.png" width="150" vspace="50" align="right"></A>') 
+    }); 
+</script> 
+
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message=FALSE, warning=FALSE)
+```
+
+
+```{r libraries}
+library(readxl)
+library(dplyr)
+library(knitr)
+library(timevis)
+
+```
+
+## Accommodation
+
+### _**Hotel Ilunion Atrium**_
+
+<iframe src="HOTEL ILUNION ATRIUM/IlunionAtrium.html" frameborder="0" width="100%" height="1050" scrolling="no"></iframe>
+
+## MAP
+
+<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1hdpA1TbVLt7qmNjZLVZCDCYWUSnv6-Hc" width="100%" height="480"></iframe>
+
+*****
+
+## Budget
+
+<iframe src="https://200614budgetasiagardens.netlify.com"  frameborder="0" width="100%" height="1600" scrolling="no"></iframe>
+
+<br>
+
+## Terms & Conditions
+
+  * Rates valid for 2019.
+  
+  * Net rates for Defacto
+  
+  * For a group of minimum 10 pax.
+  
+  * Cutting Edge Events management fee including in the detailed rates
+  
+  * VAT included. 
+  
+  * No reservation has been done. Availability upon request.
+  
+  * Costs for train Madrid - Valencia can change
+
+## Amaze your clients!!
+
+<div class="client_offer">
+
+<p>Didn't you just love our presentation ? Our first goal here at _**Cutting Edge Events**_ is to help you **win** this business. You will most likely now collate the information contained in this website and make your own presentation
+to show your client<br>
+
+<p>Why not leverage our technology, and present your client with the same format ? As a **totally free service**, we offer you the possibility of doing the work for you</p>
+
+<p> We will: 
+  <ul>
+    * Follow your instructions to add anything you want to be in your presentation, and delete anything that you don't consider relevant
+    * Include your logo and company details, and remove all our company details
+    * We can even change some colors to mimic your corporate identity
+    * We will send you the new link, and it will look as if it was your work
+  </ul>
+</p>
+</div>
+
+<style>
+
+.client_offer{
+background-color: blue;
+color: white;
+padding: 10px;
+border: 1px solid black;
+margin-left: 25px;
+border-radius: 5px;
+font-style: italic;
+}
+</style>
+
+******************
+
+
+
+
